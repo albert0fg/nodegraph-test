@@ -1,4 +1,23 @@
-id,title,icon  
-servicioPadre,Servicio Padre,cloud  
-servicioHijoA,Servicio Hijo A,database  
-servicioHijoB,Servicio Hijo B,cube  
+id,title,subTitle,mainStat,secondaryStat,icon  
+web_hipercor,Web Hipercor,Aplicación,125,0.95,apps  
+nav,Navegación,Flujo de sistema,214,0.96,route  
+data_update,Actualización de Datos,Flujo de sistema,89,0.92,refresh  
+msh3_web,msh3-hipercor-web,Servicio API,450,0.98,cube  
+msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,320,0.97,cube  
+msh3_cart,msh3-hipercor-api-cart,Servicio API,280,0.96,shopping-cart  
+msh3_custom,msh3-hipercor-api-custom,Servicio API,330,0.96,cube  
+msh3_stock,msh3-hipercor-api-stock,Servicio API,360,0.95,inventory  
+msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,270,0.97,fire  
+msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,250,0.98,cat  
+msh3_manager,msh3-hipercor-dat-manager,Servicio datos,220,0.98,settings  
+kafka_topics,Kafka topics,Kafka,520,0.99,share-nodes  
+schema_registry,Schema-registry,Kafka,180,0.98,library  
+kafka_brokers,Kafka-brokers,Kafka,500,0.99,servers  
+wso2_cloud,Cloud WSO2 Gateway,Gateway API,1030,0.95,cloud  
+wso2_onprem,On-prem WSO2 Gateway,Gateway API,650,0.94,cloud-off  
+namespace_front,Namespace: front-msh3-hipercor,AKS namespace,1860,0.97,layer-group  
+kv,kv-qh1-msh3-hipercor,Key Vault,150,0.99,key-skeleton  
+aks,aks-pro06-wdm000-01,Cluster AKS,800,0.98,server  
+zscaler,zscaler: zsaplic.eci.geci:80,Proxy,340,0.97,shield  
+mongo_cloud,MongoDB Cloud,Base de datos,420,1.2,database  
+mongo_onprem,MongoDB onprem,Base de datos,380,0.94,database  
