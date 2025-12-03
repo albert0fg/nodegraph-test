@@ -1,25 +1,23 @@
-id,title,subTitle,detail,grupo,color,icon
-web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,yellow,apps
-nav,Navegación,Flujo de sistema,,Flujos,orange,route
-data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,refresh
-msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,cube
-msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,cube
-msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,shopping-cart
-msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,cube
-msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,inventory
-msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,green,fire
-msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,cat
-msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,settings
-kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,purple,share-nodes
-schema_registry,Schema-registry,Kafka,,Componentes de aplicación,purple,library
-kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,purple,servers
-wso2_cloud,Cloud WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud
-wso2_onprem,On-prem WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud-off
-namespace_front,Namespace: front-msh3-hipercor,AKS namespace,,Infraestructura,blue,layer-group
-kv,kv-qh1-msh3-hipercor,Key Vault,,Infraestructura,blue,key-skeleton
-aks,aks-pro06-wdm000-01,Cluster AKS,,Infraestructura,blue,server
-zscaler,zscaler: zsaplic.eci.geci:80,Proxy,,Infraestructura,blue,shield
-mongo_cloud,MongoDB Cloud,Base de datos,,Infraestructura,blue,database
-mongo_onprem,MongoDB onprem,Base de datos,,Infraestructura,blue,database
-
-
+id,title,subTitle,detail,grupo,arc__1,arc__2,mainStat,secondaryStat,color,icon  
+web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,50,60,125,0.95,yellow,apps  
+nav,Navegación,Flujo de sistema,,Flujos,45,55,214,0.96,orange,route  
+data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,40,50,89,0.92,orange,refresh  
+msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,55,65,450,0.98,green,cube  
+msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,52,62,320,0.97,green,cube  
+msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,58,68,280,0.96,green,shopping-cart  
+msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,48,58,330,0.96,green,cube  
+msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,62,72,360,0.95,green,inventory  
+msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,53,63,270,0.97,green,fire  
+msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,50,60,250,0.98,green,cat  
+msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,47,57,220,0.98,green,settings  
+kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,65,75,520,0.99,purple,share-nodes  
+schema_registry,Schema-registry,Kafka,,Componentes de aplicación,42,52,180,0.98,purple,library  
+kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,68,78,500,0.99,purple,servers  
+wso2_cloud,Cloud WSO2 Gateway,Gateway API,,Infraestructura,60,70,1030,0.95,blue,cloud  
+wso2_onprem,On-prem WSO2 Gateway,Gateway API,,Infraestructura,55,65,650,0.94,blue,cloud-off  
+namespace_front,Namespace: front-msh3-hipercor,AKS namespace,,Infraestructura,70,80,1860,0.97,blue,layer-group  
+kv,kv-qh1-msh3-hipercor,Key Vault,,Infraestructura,35,45,150,0.99,blue,key-skeleton  
+aks,aks-pro06-wdm000-01,Cluster AKS,,Infraestructura,75,85,800,0.98,blue,server  
+zscaler,zscaler: zsaplic.eci.geci:80,Proxy,,Infraestructura,43,53,340,0.97,blue,shield  
+mongo_cloud,MongoDB Cloud,Base de datos,,Infraestructura,85,95,420,1.2,auto,database  
+mongo_onprem,MongoDB onprem,Base de datos,,Infraestructura,45,55,380,0.94,auto,database  
