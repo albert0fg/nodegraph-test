@@ -1,4 +1,4 @@
-id,title,mainStat  
-node1,Servidor Web,95  
-node2,Base de Datos,85  
-node3,Cache Redis,90  
+id,title,mainStat,secondaryStat,arc__failed,arc__passed  
+node1,Servidor Web,95,200,0.2,0.8  
+node2,Base de Datos,85,150,0.4,0.6  
+node3,Cache Redis,90,500,0.3,0.7  
