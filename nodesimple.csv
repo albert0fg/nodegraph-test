@@ -1,4 +1,4 @@
-id,title  
-node1,Servidor Web  
-node2,Base de Datos  
-node3,Cache Redis  
+id,title,mainStat  
+node1,Servidor Web,95  
+node2,Base de Datos,85  
+node3,Cache Redis,90  
