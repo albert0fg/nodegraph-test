@@ -1,4 +1,4 @@
-id,source,target  
-edge1,node1,node2  
-edge2,node1,node3  
-edge3,node2,node3  
+id,title,arc__failed,arc__passed  
+node1,Servidor Web,0.2,0.8  
+node2,Base de Datos,0.4,0.6  
+node3,Cache Redis,0.3,0.7  
