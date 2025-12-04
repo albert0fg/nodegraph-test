@@ -1,4 +1,4 @@
 id,source,target,mainStat,secondaryStat  
-edge1,node1,node2,120 req/s,10ms  
-edge2,node1,node3,80 req/s,2ms  
-edge3,node2,node3,50 queries/s,5ms  
+edge1,node1,node2,120,10  
+edge2,node1,node3,80,2  
+edge3,node2,node3,50,5  
