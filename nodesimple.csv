@@ -1,1 +1,4 @@
-Test
+id,title,mainStat,secondaryStat,arc__status  
+node1,Servidor Web,95%,200 req/s,0.8  
+node2,Base de Datos,85%,150 queries/s,0.6  
+node3,Cache Redis,90%,500 ops/s,0.7  
