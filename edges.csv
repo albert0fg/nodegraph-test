@@ -1,27 +1,23 @@
-id,source,target,mainStat,secondaryStat,detail  
-e1,web_hipercor,nav,0.95,125,HTTP  
-e2,web_hipercor,data_update,0.92,89,HTTP  
-e3,nav,msh3_web,0.98,450,  
-e4,nav,msh3_typeahead,0.97,320,  
-e5,nav,msh3_cart,0.96,280,  
-e6,nav,msh3_custom,0.95,150,  
-e7,nav,msh3_stock,0.94,200,  
-e8,data_update,msh3_custom,0.96,180,  
-e9,data_update,msh3_stock,0.95,160,  
-e10,msh3_custom,msh3_firefly,0.97,140,  
-e11,msh3_stock,msh3_firefly,0.96,130,  
-e12,msh3_firefly,msh3_kafka_cat,0.98,250,  
-e13,msh3_kafka_cat,kafka_topics,0.99,300,  
-e14,msh3_manager,kafka_topics,0.98,220,  
-e15,kafka_topics,kafka_brokers,0.99,500,  
-e16,kafka_brokers,schema_registry,0.98,180,  
-e17,msh3_web,wso2_cloud,0.96,380,  
-e18,msh3_typeahead,wso2_cloud,0.97,290,  
-e19,msh3_cart,wso2_cloud,0.95,260,  
-e20,wso2_cloud,wso2_onprem,0.94,650,  
-e21,wso2_onprem,namespace_front,0.96,720,  
-e22,namespace_front,aks,0.98,800,  
-e23,namespace_front,zscaler,0.97,340,  
-e24,namespace_front,kv,0.99,150,  
-e25,namespace_front,mongo_cloud,0.95,420,  
-e26,namespace_front,mongo_onprem,0.94,380,  
+id,title,subTitle,detail,grupo,color,icon
+web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,yellow,apps
+nav,Navegación,Flujo de sistema,,Flujos,orange,route
+data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,refresh
+msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,cube
+msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,cube
+msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,shopping-cart
+msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,cube
+msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,inventory
+msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,green,fire
+msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,cat
+msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,settings
+kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,purple,share-nodes
+schema_registry,Schema-registry,Kafka,,Componentes de aplicación,purple,library
+kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,purple,servers
+wso2_cloud,Cloud WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud
+wso2_onprem,On-prem WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud-off
+namespace_front,Namespace: front-msh3-hipercor,AKS namespace,,Infraestructura,blue,layer-group
+kv,kv-qh1-msh3-hipercor,Key Vault,,Infraestructura,blue,key-skeleton
+aks,aks-pro06-wdm000-01,Cluster AKS,,Infraestructura,blue,server
+zscaler,zscaler: zsaplic.eci.geci:80,Proxy,,Infraestructura,blue,shield
+mongo_cloud,MongoDB Cloud,Base de datos,,Infraestructura,blue,database
+mongo_onprem,MongoDB onprem,Base de datos,,Infraestructura,blue,database
