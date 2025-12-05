@@ -1,7 +1,7 @@
 id,title,subTitle,detail,grupo,color,icon
 web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,yellow,apps
 nav,Navegación,Flujo de sistema,,Flujos,orange,globe
-data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,scan-eye
+data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,document-layout-left
 msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
 msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
 msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
