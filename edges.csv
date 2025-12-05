@@ -1,23 +1,24 @@
-id,title,subTitle,detail,grupo,color,icon
-web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,yellow,apps
-nav,Navegación,Flujo de sistema,,Flujos,orange,route
-data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,refresh
-msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,cube
-msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,cube
-msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,shopping-cart
-msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,cube
-msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,inventory
-msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,green,fire
-msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,cat
-msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,settings
-kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,purple,share-nodes
-schema_registry,Schema-registry,Kafka,,Componentes de aplicación,purple,library
-kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,purple,servers
-wso2_cloud,Cloud WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud
-wso2_onprem,On-prem WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud-off
-namespace_front,Namespace: front-msh3-hipercor,AKS namespace,,Infraestructura,blue,layer-group
-kv,kv-qh1-msh3-hipercor,Key Vault,,Infraestructura,blue,key-skeleton
-aks,aks-pro06-wdm000-01,Cluster AKS,,Infraestructura,blue,server
-zscaler,zscaler: zsaplic.eci.geci:80,Proxy,,Infraestructura,blue,shield
-mongo_cloud,MongoDB Cloud,Base de datos,,Infraestructura,blue,database
-mongo_onprem,MongoDB onprem,Base de datos,,Infraestructura,blue,database
+id,source,target,mainStat  
+edge1,web_hipercor,nav,100  
+edge2,nav,msh3_web,95  
+edge3,nav,msh3_typeahead,90  
+edge4,nav,msh3_cart,85  
+edge5,msh3_web,namespace_front,100  
+edge6,msh3_typeahead,namespace_front,100  
+edge7,msh3_cart,namespace_front,100  
+edge8,msh3_custom,namespace_front,100  
+edge9,msh3_stock,namespace_front,100  
+edge10,namespace_front,aks,100  
+edge11,aks,kafka_brokers,95  
+edge12,kafka_brokers,kafka_topics,100  
+edge13,kafka_topics,msh3_firefly,90  
+edge14,kafka_topics,msh3_kafka_cat,90  
+edge15,kafka_topics,msh3_manager,90  
+edge16,msh3_firefly,mongo_cloud,85  
+edge17,msh3_manager,mongo_cloud,85  
+edge18,aks,wso2_cloud,90  
+edge19,aks,zscaler,90  
+edge20,msh3_custom,mongo_cloud,80  
+edge21,msh3_stock,mongo_onprem,80  
+edge22,data_update,kafka_topics,100  
+edge23,kafka_topics,schema_registry,95  
