@@ -2,11 +2,11 @@ id,title,subTitle,detail,grupo,color,icon
 web_hipercor,Web Hipercor,Aplicación,Frontend web,Aplicación,yellow,apps
 nav,Navegación,Flujo de sistema,,Flujos,orange,globe
 data_update,Actualización de entidades de Datos,Flujo de sistema,,Flujos,orange,scan-eye
-msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,cpu
-msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,cpu
-msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,cpu
-msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,cpu
-msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,cpu
+msh3_web,msh3-hipercor-web,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
+msh3_typeahead,msh3-hipercor-api-typeahead,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
+msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicación,green,api-endpoint
+msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,api-endpoint
+msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,api-endpoint
 msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,green,flame
 msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,git-branch
 msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,git-branch
