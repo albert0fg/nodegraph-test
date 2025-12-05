@@ -8,11 +8,11 @@ msh3_cart,msh3-hipercor-api-cart,Servicio API,Navegación,Componentes de aplicac
 msh3_custom,msh3-hipercor-api-custom,Servicio API,Datos,Componentes de aplicación,green,api-endpoint
 msh3_stock,msh3-hipercor-api-stock,Servicio API,Datos,Componentes de aplicación,green,api-endpoint
 msh3_firefly,msh3-hipercor-dat-firefly,Servicio datos,,Componentes de aplicación,green,flame
-msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,git-branch
-msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,git-branch
-kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,purple,git-merge
+msh3_kafka_cat,msh3-hipercor-dat-kafka-cat,Servicio datos,,Componentes de aplicación,green,code-branch
+msh3_manager,msh3-hipercor-dat-manager,Servicio datos,,Componentes de aplicación,green,code-branch
+kafka_topics,Kafka topics,Kafka,,Componentes de aplicación,purple,code-branch
 schema_registry,Schema-registry,Kafka,,Componentes de aplicación,purple,library
-kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,purple,git-merge
+kafka_brokers,Kafka-brokers,Kafka,,Componentes de aplicación,purple,code-branch
 wso2_cloud,Cloud WSO2 Gateway,Gateway API,,Infraestructura,blue,cloud
 wso2_onprem,On-prem WSO2 Gateway,Gateway API,,Infraestructura,blue,rocket
 namespace_front,Namespace: front-msh3-hipercor,AKS namespace,,Infraestructura,blue,kubernetes
